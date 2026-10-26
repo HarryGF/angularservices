@@ -1,0 +1,8 @@
+<h1>Comics API</h1>
+@for(comic of arrayComics; track comic) {
+    <div>
+        <h2>{{comic.titulo}}</h2>
+        <h3>{{comic.descripcion}}</h3>
+        <img src="{{comic.imagen}}"/>
+    </div>
+}
