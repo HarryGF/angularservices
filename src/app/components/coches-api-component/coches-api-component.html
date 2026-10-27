@@ -1,0 +1,7 @@
+<h1>Coches</h1>>
+@for(coche of arrayCoches; track coche) {
+    <h3>{{coche.marca}} - {{coche.modelo}}</h3>
+    <p style="color: red">{{coche.conductor}}</p>
+    <img src="{{coche.imagen}}" style="width: 130px; height: 130px;"/>
+    <hr/>
+}
